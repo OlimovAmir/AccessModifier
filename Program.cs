@@ -18,7 +18,7 @@ class Program
 
         foreach (var field in fields)
         {
-            Console.WriteLine($"Field Name: {field.Name}, Type: {field.FieldType}");
+            Console.WriteLine($"Field Name: {field.Name}, Type: {field.FieldType}, isPublic: {field.IsPublic}");
         }
     }
 }
